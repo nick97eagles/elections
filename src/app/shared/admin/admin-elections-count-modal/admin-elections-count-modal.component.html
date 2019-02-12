@@ -1,3 +1,18 @@
 <p>
   admin-vote-count works!
 </p>
+
+<table>
+  <thead>
+    <th>Position</th>
+    <th>Winner</th>
+    <th>Votes</th>
+  </thead>
+  <tbody *ngIf="positionData">
+    <tr *ngFor="let position of positionData.positions">
+        <td>{{position.position}}</td>
+        <td>{{position.votes.candidate}}</td>
+        <td>{{position.votes.votes}}</td>
+    </tr>
+  </tbody>
+</table>
