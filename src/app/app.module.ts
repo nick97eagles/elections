@@ -31,7 +31,8 @@ import {
   AdminElectionsCandidateModalComponent,
   AdminElectionsRowComponent,
   AdminPositionsComponent,
-  AdminPositionsRowComponent
+  AdminPositionsRowComponent,
+  AdminVoteCountComponent
 } from './shared/shared';
 
 
@@ -54,7 +55,8 @@ import {
     AdminPositionsComponent,
     AdminPositionsRowComponent,
     AswwuElectionsComponent,
-    SenateElectionsComponent
+    SenateElectionsComponent,
+    AdminVoteCountComponent
   ],
   imports: [
     NgbModule,
