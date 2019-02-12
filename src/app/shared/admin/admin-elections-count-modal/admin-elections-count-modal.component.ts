@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './admin-vote-count.component.html',
   styleUrls: ['./admin-vote-count.component.css']
 })
-export class AdminVoteCountComponent implements OnInit {
+export class AdminElectionsCountModalComponent implements OnInit {
 
   constructor() { }
 

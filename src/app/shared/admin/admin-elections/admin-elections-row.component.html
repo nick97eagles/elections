@@ -35,8 +35,9 @@
 </td>
 <td>
   <form [formGroup]="rowFormGroup" (ngSubmit)="saveRow()">
-      <button type="button" class="btn btn-primary" (click)="openCandidatesModal()">Candidates ({{candidates.length}})</button>
-      <button type="submit" class="btn btn-success" [disabled]="rowFormGroup.invalid" [ngClass]="{'btn-danger': rowFormGroup.dirty}">Save</button>
+    <button type="submit" class="btn btn-success" [disabled]="rowFormGroup.invalid" [ngClass]="{'btn-danger': rowFormGroup.dirty}">Save</button>
+    <button type="button" class="btn btn-primary" (click)="openCandidatesModal()">Candidates ({{candidates.length}})</button>
+    <button type="button" class="btn btn-primary" (click)="openCountModal()">Count</button>
   </form>
 </td>
 

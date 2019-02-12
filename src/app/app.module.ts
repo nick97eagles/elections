@@ -32,7 +32,7 @@ import {
   AdminElectionsRowComponent,
   AdminPositionsComponent,
   AdminPositionsRowComponent,
-  AdminVoteCountComponent
+  AdminElectionsCountModalComponent
 } from './shared/shared';
 
 
@@ -56,7 +56,7 @@ import {
     AdminPositionsRowComponent,
     AswwuElectionsComponent,
     SenateElectionsComponent,
-    AdminVoteCountComponent
+    AdminElectionsCountModalComponent
   ],
   imports: [
     NgbModule,
@@ -89,6 +89,7 @@ import {
   bootstrap: [AppComponent],
   entryComponents: [
     AdminElectionsCandidateModalComponent,
+    AdminElectionsCountModalComponent,
     AdminElectionsRowComponent,
     AdminPositionsRowComponent,
   ]

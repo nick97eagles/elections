@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AdminVoteCountComponent } from './admin-vote-count.component';
+import { AdminElectionsCountModalComponent } from './admin-elections-count-modal.component';
 
 describe('AdminVoteCountComponent', () => {
-  let component: AdminVoteCountComponent;
-  let fixture: ComponentFixture<AdminVoteCountComponent>;
+  let component: AdminElectionsCountModalComponent;
+  let fixture: ComponentFixture<AdminElectionsCountModalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdminVoteCountComponent ]
+      declarations: [ AdminElectionsCountModalComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AdminVoteCountComponent);
+    fixture = TestBed.createComponent(AdminElectionsCountModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
