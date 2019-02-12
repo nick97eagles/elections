@@ -130,7 +130,9 @@ export class AdminElectionsRowComponent implements OnInit {
     const electionID = this.rowData.id;
     const modalRef = this.modalService.open(AdminElectionsCountModalComponent);
     modalRef.componentInstance.electionID = electionID;
+    modalRef.componentInstance.positions = positionData;
   }
+
 }
 
 
