@@ -27,7 +27,8 @@ import {
 } from '../shared-ng/components/components';
 import {
   RequestService,
-  HermesService
+  HermesService,
+  AuthService
 } from '../shared-ng/services/services';
 
 // project components
@@ -93,7 +94,8 @@ import {
   ],
   providers: [
     RequestService,
-    HermesService
+    HermesService,
+    AuthService
   ],
   bootstrap: [AppComponent],
   entryComponents: [
